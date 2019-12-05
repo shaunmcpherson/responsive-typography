@@ -73,6 +73,7 @@ blockquote p {
 article ol {
   margin: 0;
   padding: 0 1rem;
+  line-height: 1.3rem;
 }
 
 .quote {
@@ -88,24 +89,32 @@ article ol {
 
   article h1 {
     font-weight: normal;
-    line-height: 1rem;
+    line-height: .5rem;
   }
 
   article header {
+    margin-bottom: .25rem;
+    padding-bottom: .15rem;
     border-bottom: 1px solid #999;
   }
 
   article header p {
-    font-style: italic;
-    line-height: .5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: .2rem 0;
   }
 
   article > p:last-child {
+    padding-bottom: 1rem;
     border-bottom: 1px solid #999;
   }
 
   blockquote {
     color: #555;
+    font-size: 1.125rem;
+  }
+
+  blockquote p {
     font-size: 1.125rem;
   }
 
@@ -143,6 +152,10 @@ article ol {
     font-size: 1.125rem;
   }
 
+  blockquote p {
+    font-size: 1.125rem;
+  }
+
   .quote {
     color: #999;
     width: 100%;
@@ -159,31 +172,46 @@ article ol {
 
   article {
     max-width: 43em;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 
   article h1 {
     font-weight: normal;
+    line-height: .5rem;
   }
 
   article header {
+    margin-bottom: .25rem;
+    padding-bottom: .15rem;
     border-bottom: 1px solid #999;
+  }
+
+  article p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    padding: .2rem 0;
   }
 
   article header p {
+    padding-bottom: .5rem;
     font-style: italic;
+    line-height: 0;
   }
 
   article > p:last-child {
+    padding-bottom: 1rem;
     border-bottom: 1px solid #999;
   }
-
   blockquote {
     padding: 0;
     margin: 0 5rem;
     max-width: 24em;
     color: #555;
     font-size: 1.5rem;
+  }
+
+  blockquote p {
+    font-size: 1.125rem;
   }
 
   .quote {
@@ -201,7 +229,7 @@ article ol {
 
   article {
     max-width: 43em;
-    padding: 0 1rem;
+    padding: 2rem 1rem;
   }
 
   article h1 {
@@ -224,6 +252,10 @@ article ol {
     max-width: 24em;
     color: #555;
     font-size: 1.5rem;
+  }
+
+  blockquote p {
+    font-size: 1.125rem;
   }
 
   .quote {
