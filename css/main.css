@@ -38,7 +38,8 @@ article h1 {
 }
 
 article header {
-  padding-bottom: .5rem;
+  margin-bottom: .5rem;
+  padding-bottom: .35rem;
   border-bottom: 1px solid #999;
 }
 
@@ -58,8 +59,15 @@ article > p:last-child {
 }
 
 blockquote {
+  padding: 0;
+  margin: 0;
   color: #555;
   font-size: 1.125rem;
+}
+
+article ol {
+  margin: 0;
+  padding: 0 1rem;
 }
 
 .quote {
@@ -166,9 +174,11 @@ blockquote {
   }
 
   blockquote {
+    padding: 0;
+    margin: 0 5rem;
     max-width: 24em;
     color: #555;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
   }
 
   .quote {
@@ -208,7 +218,7 @@ blockquote {
   blockquote {
     max-width: 24em;
     color: #555;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
   }
 
   .quote {
