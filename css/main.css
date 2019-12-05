@@ -27,45 +27,43 @@ body {
   justify-content: center;
 }
 
-  article {
-    max-width: 43em;
-    padding: 1rem 1rem;
-  }
+article {
+  max-width: 43em;
+  padding: 1rem 1rem;
+}
 
-  article h1 {
-    font-weight: normal;
-    line-height: .25rem;
-  }
+article h1 {
+  font-weight: normal;
+  line-height: .25rem;
+}
 
-  article header {
-    padding-bottom: .5rem;
-    border-bottom: 1px solid #999;
-  }
+article header {
+  padding-bottom: .5rem;
+  border-bottom: 1px solid #999;
+}
 
-  article p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
+article p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
 
-  article header p {
-    font-style: italic;
-    line-height: .5rem;
-  }
+article header p {
+  font-style: italic;
+  line-height: .5rem;
+}
 
-  article > p:last-child {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #999;
-  }
+article > p:last-child {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #999;
+}
 
-  blockquote {
-    color: #555;
-    font-size: 1.125rem;
-  }
+blockquote {
+  color: #555;
+  font-size: 1.125rem;
+}
 
-  .quote {
-    color: #999;
-  }
-
+.quote {
+  color: #999;
 }
 
 @media only screen and (min-width: 25em) {
