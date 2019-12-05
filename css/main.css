@@ -34,7 +34,7 @@ article {
 
 article h1 {
   font-weight: normal;
-  line-height: .35rem;
+  line-height: .5rem;
 }
 
 article header {
@@ -44,14 +44,18 @@ article header {
 }
 
 article p {
-  padding: .25rem 0;
   font-size: 1rem;
   line-height: 1.3rem;
 }
 
+article > p:first-child {
+  padding: .25rem 0;
+}
+
 article header p {
+  padding-bottom: .5rem;
   font-style: italic;
-  line-height: .5rem;
+  line-height: 0;
 }
 
 article > p:last-child {
