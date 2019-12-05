@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: "Crimson Text", serif;
 
   color: #222;
 }
@@ -18,32 +19,163 @@ html {
   box-sizing: inherit;
 }
 
-article {
-  max-width: 43em;
+body {
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
 
-article h1 {
-  font-weight: normal;
+@media only screen and (min-width: 25em) {
+
+  article {
+    max-width: 43em;
+    padding: 0 1rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+    line-height: 1rem;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+    line-height: .5rem;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
+
 }
 
-article header {
-  border-bottom: 1px solid #999;
+@media only screen and (min-width: 38em) {
+
+  article {
+    max-width: 43em;
+    padding: 0 1rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+    width: 100%;
+  }
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 }
 
-article header p {
-  font-style: italic;
+@media only screen and (min-width: 60em) {
+
+  article {
+    max-width: 43em;
+    padding: 0 1rem;
+  }
+
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
 }
 
-article > p:last-child {
-  border-bottom: 1px solid #999;
-}
+@media only screen and (min-width: 90em) {
 
-blockquote {
-  max-width: 24em;
-  color: #555;
-  font-size: 1.125rem;
-}
+  article {
+    max-width: 43em;
+    padding: 0 1rem;
+  }
 
-.quote {
-  color: #999;
+  article h1 {
+    font-weight: normal;
+  }
+
+  article header {
+    border-bottom: 1px solid #999;
+  }
+
+  article header p {
+    font-style: italic;
+  }
+
+  article > p:last-child {
+    border-bottom: 1px solid #999;
+  }
+
+  blockquote {
+    max-width: 24em;
+    color: #555;
+    font-size: 1.125rem;
+  }
+
+  .quote {
+    color: #999;
+  }
+
+  html {
+    font-size: 130%;
+  }
+
 }
