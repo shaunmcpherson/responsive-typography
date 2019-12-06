@@ -88,9 +88,8 @@ article ol {
   }
 
   article h1 {
-    padding: 1rem 0 0;
     font-weight: normal;
-    line-height: .15rem;
+    line-height: .5rem;
   }
 
   article header {
