@@ -160,8 +160,10 @@ article ol {
   }
 
   blockquote {
+    padding: 0;
+    margin: 0 2.5rem;
+    max-width: 24em;
     color: #555;
-    font-size: 1.125rem;
   }
 
   blockquote p {
@@ -220,7 +222,6 @@ article ol {
     margin: 0 5rem;
     max-width: 24em;
     color: #555;
-    font-size: 1.5rem;
   }
 
   blockquote p {
